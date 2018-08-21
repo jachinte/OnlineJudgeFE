@@ -14,5 +14,5 @@ docker run --rm -it -v $(pwd):/work getsentry/sentry-cli \
 
 # upload js and source_maps
 docker run --rm -it -v $(pwd):/work getsentry/sentry-cli \
-   sentry-cli --auth-token $SENTRY_AUTH_TOKEN releases -o university-of-victoria files $VERSION upload-sourcemaps ./dist/static/js
+   sentry-cli --auth-token $SENTRY_AUTH_TOKEN releases -o university-of-victoria -p online-judge files $VERSION upload-sourcemaps ./dist/static/js
 fi
