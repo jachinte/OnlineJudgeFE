@@ -18,14 +18,14 @@ export const m = {
   Show: 'Show',
   // About.vue
   Result_Explanation: 'Result Explanation',
-  Pending_Juding: 'You solution will be judged soon, please wait for result.',
+  Pending_Juding: 'Your solution will be judged soon, please wait for result.',
   Compile_Error: "Failed to compile your source code. Click on the link to see compiler's output.",
-  Accepted: 'Congratulations. Your solution is correct.',
-  Wrong_Answer: "Your program's output doesn't match judger's answer.",
+  Accepted: 'Congratulations! Your solution is correct.',
+  Wrong_Answer: "Your program's output doesn't match the judger's answer.",
   Runtime_Error: 'Your program terminated abnormally. Possible reasons are: segment fault, divided by zero or exited with code other than 0.',
-  Time_Limit_Exceeded: 'The CPU time your program used has exceeded limit. Java has a triple time limit.',
-  Memory_Limit_Exceeded: 'The memory your program actually used has exceeded limit.',
-  System_Error: 'Oops, something has gone wrong with the judger. Please report this to administrator.',
+  Time_Limit_Exceeded: 'The CPU time your program used has exceeded the limit. Java has a triple time limit.',
+  Memory_Limit_Exceeded: 'The memory your program actually used has exceeded the limit.',
+  System_Error: 'Oops, something has gone wrong with the judger. Please report this to the administrator.',
   // FAQ.vue
   Frequently_Asked_Questions: 'Frequently Asked Questions',
   // ContestDetail.vue
@@ -40,8 +40,8 @@ export const m = {
 
   // NavBar.vue
   Home: 'Home',
-  NavProblems: 'Problems',
-  Contests: 'Contests',
+  NavProblems: 'Practice',
+  Contests: 'Assignments',
   NavStatus: 'Status',
   Rank: 'Rank',
   ACM_Rank: 'ACM Rank',
@@ -101,5 +101,5 @@ export const m = {
   UserHomeserSubmissions: 'Submissions',
   UserHomeScore: 'Score',
   List_Solved_Problems: 'List of solved problems',
-  UserHomeIntro: 'The guy is so lazy that has not solved any problem yet.'
+  UserHomeIntro: 'This user has not solved any problem yet.'
 }
