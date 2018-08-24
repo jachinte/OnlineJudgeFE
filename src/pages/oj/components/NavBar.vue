@@ -11,15 +11,13 @@
         {{$t('m.NavProblems')}}
       </Menu-item>
       <Menu-item name="/contests">
-        <Icon type="trophy"></Icon>
+        <Icon type="ios-albums"></Icon>
         {{$t('m.Contests')}}
       </Menu-item>
-      <!--
       <Menu-item name="/status">
         <Icon type="ios-pulse-strong"></Icon>
         {{$t('m.NavStatus')}}
       </Menu-item>
-      -->
       <!--
       <Submenu name="rank">
         <template slot="title">

@@ -2,9 +2,10 @@
   <Row type="flex">
     <Col :span="24">
     <Panel id="contest-card" shadow>
-      <div slot="title">{{query.rule_type === '' ? 'All' : query.rule_type}} Contests</div>
+      <div slot="title">{{query.rule_type === '' ? 'All' : query.rule_type}} Assignments</div>
       <div slot="extra">
         <ul class="filter">
+          <!--
           <li>
             <Dropdown @on-click="onRuleChange">
               <span>{{query.rule_type === '' ? 'Rule' : query.rule_type}}
@@ -17,6 +18,7 @@
               </Dropdown-menu>
             </Dropdown>
           </li>
+          -->
           <li>
             <Dropdown @on-click="onStatusChange">
               <span>{{query.status === '' ? 'Status' : CONTEST_STATUS_REVERSE[query.status].name}}
@@ -24,8 +26,8 @@
               </span>
               <Dropdown-menu slot="list">
                 <Dropdown-item name="">All</Dropdown-item>
-                <Dropdown-item name="0">UnderWay</Dropdown-item>
-                <Dropdown-item name="1">Not Started</Dropdown-item>
+                <Dropdown-item name="0">Under way</Dropdown-item>
+                <Dropdown-item name="1">Not started</Dropdown-item>
                 <Dropdown-item name="-1">Ended</Dropdown-item>
               </Dropdown-menu>
             </Dropdown>
@@ -36,11 +38,11 @@
           </li>
         </ul>
       </div>
-      <p id="no-contest" v-if="contests.length == 0">No contest</p>
+      <p id="no-contest" v-if="contests.length == 0">There are no assignments yet.</p>
       <ol id="contest-list">
         <li v-for="contest in contests" :key="contest.title">
           <Row type="flex" justify="space-between" align="middle">
-            <img class="trophy" src="../../../../assets/Cup.png"/>
+            <img class="trophy" src="../../../../assets/Assignment.png"/>
             <Col :span="18" class="contest-main">
             <p class="title">
               <a class="entry" @click.stop="goContest(contest)">
@@ -59,11 +61,13 @@
                 <Icon type="android-time" color="#3091f2"></Icon>
                 {{getDuration(contest.start_time, contest.end_time)}}
               </li>
+              <!--
               <li>
                 <Button size="small" shape="circle" @click="onRuleChange(contest.rule_type)">
                   {{contest.rule_type}}
                 </Button>
               </li>
+              -->
             </ul>
             </Col>
             <Col :span="4" style="text-align: center">

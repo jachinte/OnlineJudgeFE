@@ -1,14 +1,14 @@
 // all routes here.
 import {
   About,
-  ACMRank,
+  // ACMRank,
   Announcements,
   ApplyResetPassword,
   FAQ,
   Home,
   Logout,
   NotFound,
-  OIRank,
+  // OIRank,
   Problem,
   ProblemList,
   ResetPassword,
@@ -101,30 +101,30 @@ export default [
         path: 'announcements',
         component: Announcements
       },
-      {
-        name: 'contest-rank',
-        path: 'rank',
-        component: Contest.ContestRank
-      },
-      {
-        name: 'acm-helper',
-        path: 'helper',
-        component: Contest.ACMContestHelper
-      }
+      // {
+      //   name: 'contest-rank',
+      //   path: 'rank',
+      //   component: Contest.ContestRank
+      // },
+      // {
+      //   name: 'acm-helper',
+      //   path: 'helper',
+      //   component: Contest.ACMContestHelper
+      // }
     ]
   },
-  {
-    name: 'acm-rank',
-    path: '/acm-rank',
-    meta: {title: 'ACM Rankings'},
-    component: ACMRank
-  },
-  {
-    name: 'oi-rank',
-    path: '/oi-rank',
-    meta: {title: 'OI Rankings'},
-    component: OIRank
-  },
+  // {
+  //   name: 'acm-rank',
+  //   path: '/acm-rank',
+  //   meta: {title: 'ACM Rankings'},
+  //   component: ACMRank
+  // },
+  // {
+  //   name: 'oi-rank',
+  //   path: '/oi-rank',
+  //   meta: {title: 'OI Rankings'},
+  //   component: OIRank
+  // },
   {
     name: 'user-home',
     path: '/user-home',
