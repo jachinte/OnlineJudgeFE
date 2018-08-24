@@ -93,7 +93,7 @@
     },
     data () {
       return {
-        title: 'Create Contest',
+        title: 'Create Assignment',
         disableRuleType: false,
         contest: {
           title: '',

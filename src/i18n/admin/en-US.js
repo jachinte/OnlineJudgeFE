@@ -10,7 +10,7 @@ export const m = {
   Problem: 'Problems',
   Problem_List: 'Problem list',
   Create_Problem: 'Create problem',
-  Export_Import_Problem: 'Export or import problem',
+  Export_Import_Problem: 'Export/import problem',
   Contest: 'Assignments',
   Contest_List: 'Assignment list',
   Create_Contest: 'Create assignment',
@@ -45,7 +45,7 @@ export const m = {
   Shortcut: 'Shortcut',
   Footer: 'Footer',
   Allow_Register: 'Allow register',
-  Submission_List_Show_All: 'Submission list show all',
+  Submission_List_Show_All: 'Submission list - Show all users',
   // JudgeServer.vue
   Judge_Server_Token: 'Judge server token',
   Judge_Server_Info: 'Judge server',

@@ -1,6 +1,6 @@
 <template>
   <div class="view">
-    <Panel :title="contestId ? 'Contest Problem List' : 'Problem List'">
+    <Panel :title="contestId ? 'Assignment Problem List' : 'Problem List'">
       <div slot="header">
         <el-input
           v-model="keyword"
@@ -110,7 +110,7 @@
         <save @click.native="updateProblem(currentRow)"></save>
       </span>
     </el-dialog>
-    <el-dialog title="Add Contest Problem"
+    <el-dialog title="Add assignment problem"
                v-if="contestId"
                width="80%"
                :visible.sync="addProblemDialogVisible"
