@@ -100,8 +100,8 @@ export default [
         name: 'contest-announcement-list',
         path: 'announcements',
         component: Announcements
-      },
-      // {
+      }
+      // ,{
       //   name: 'contest-rank',
       //   path: 'rank',
       //   component: Contest.ContestRank
