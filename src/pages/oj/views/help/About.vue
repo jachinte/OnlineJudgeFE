@@ -1,16 +1,5 @@
 <template>
   <div>
-    <panel class="container">
-      <div slot="title">Compiler & Judger</div>
-      <div class="content markdown-body">
-        <ul>
-          <li v-for="lang in languages">{{lang.name}} ( {{lang.description}} )
-            <pre>{{lang.config.compile.compile_command}}</pre>
-          </li>
-        </ul>
-      </div>
-    </panel>
-
     <panel :padding="15" class="container">
       <div slot="title">Result Explanation</div>
       <div class="content">
@@ -34,6 +23,16 @@
       </div>
     </panel>
 
+    <panel class="container">
+      <div slot="title">Compiler & Marker</div>
+      <div class="content markdown-body">
+        <ul>
+          <li v-for="lang in languages">{{lang.name}} ( {{lang.description}} )
+            <pre>{{lang.config.compile.compile_command}}</pre>
+          </li>
+        </ul>
+      </div>
+    </panel>
   </div>
 </template>
 

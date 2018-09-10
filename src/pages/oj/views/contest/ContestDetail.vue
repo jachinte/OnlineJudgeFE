@@ -58,12 +58,14 @@
           {{$t('m.Submissions')}}
         </VerticalMenu-item>
 
+        <!--
         <VerticalMenu-item v-if="OIContestRealTimePermission"
                            :disabled="contestMenuDisabled"
                            :route="{name: 'contest-rank', params: {contestID: contestID}}">
           <Icon type="stats-bars"></Icon>
           {{$t('m.Rankings')}}
         </VerticalMenu-item>
+        -->
 
         <VerticalMenu-item v-if="showAdminHelper"
                            :route="{name: 'acm-helper', params: {contestID: contestID}}">
@@ -110,10 +112,10 @@
             title: 'ContestType',
             key: 'contest_type'
           },
-          {
-            title: 'Rule',
-            key: 'rule_type'
-          },
+          // {
+          //   title: 'Rule',
+          //   key: 'rule_type'
+          // },
           {
             title: 'Creator',
             render: (h, data) => {

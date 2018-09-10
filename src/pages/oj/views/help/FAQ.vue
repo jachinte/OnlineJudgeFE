@@ -9,19 +9,19 @@
             User programs are not allowed to read or write files, or you will get a <code>Runtime Error</code>.
           </p>
         </li>
-        <li>What's the meaning of the submission execution time?
-        <p>The onlinejudge might test your code multiple times with different input files.
+        <li>What is the meaning of the submission execution time?
+        <p>iLeap might test your code multiple times with different input files.
           If your code gives the correct answer within the time limit for each input file, the execution time displayed is the max of the time spent for each test case.
           Otherwise, the execution time will not make sense.
         </p>
         </li>
-        <li>About presentation error?
-          <p>There is no presentation error in this oj. The judger will trim the blacks and wraps in your ouput's <b>last</b> line.
+        <li>Are there presentation errors?
+          <p>There is no presentation error in iLeap. The marker will trim the blacks and wraps in your ouput's <b>last</b> line.
             If it is still different than the correct output, the result will be <code>Wrong Answer</code>.</p>
         </li>
-        <li>How to report bugs about this oj?
-          <p>The onlinejudge is open source, you can open an issue in <a href="https://github.com/jachinte/OnlineJudge">Github</a>.
-            The details(like env, version..) about a bug are required. These details will help us to solve the bug.
+        <li>How to report bugs about iLeap?
+          <p>iLeap is open source, you can open an issue in <a href="https://github.com/jachinte/OnlineJudge">Github</a>.
+            The details about a bug are required. These details will help us to solve the bug.
           </p>
         </li>
       </ul>
