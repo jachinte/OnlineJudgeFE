@@ -1,6 +1,10 @@
 <template>
   <Panel :padding="30" class="container">
     <div slot="title" class="center">{{$t('m.Reset_Password')}}</div>
+    <template>
+      <p>Please send an email to csc111@uvic.ca requesting a password change.</p>
+    </template>
+    <!--
     <template v-if="!successApply">
       <Form :rules="ruleResetPassword" :model=formResetPassword ref="formResetPassword">
         <Form-item prop="email">
@@ -35,6 +39,7 @@
         <span slot="desc">Password reset mail has been sent to your email.</span>
       </Alert>
     </template>
+    -->
   </Panel>
 </template>
 <script>

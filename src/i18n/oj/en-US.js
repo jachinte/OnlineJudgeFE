@@ -52,7 +52,7 @@ export const m = {
   ACM_Rank: "ACM Rank",
   OI_Rank: "OI Rank",
   About: "About",
-  Judger: "iLeap's compilation and result messages",
+  Judger: "iLeap",
   FAQ: "FAQ",
   Login: "Login",
   Register: "Register",
@@ -84,7 +84,7 @@ export const m = {
   LoginPassword: "Password",
   TFA_Code: "Code from your TFA app",
   No_Account: "No account? Register now!",
-  Forget_Password: "Forget Password",
+  Forget_Password: "Forgot Password",
   UserLogin: "Login",
   // Register.vue
   RegisterUsername: "Username",
