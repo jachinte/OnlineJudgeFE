@@ -115,14 +115,16 @@
         </VerticalMenu-item>
 
         <template v-if="this.contestID">
+          <!--
           <VerticalMenu-item v-if="!this.contestID || OIContestRealTimePermission"
                              :route="{name: 'contest-rank', params: {contestID: contestID}}">
             <Icon type="stats-bars"></Icon>
             Rankings
           </VerticalMenu-item>
+          -->
           <VerticalMenu-item :route="{name: 'contest-details', params: {contestID: contestID}}">
             <Icon type="home"></Icon>
-            View Contest
+            View Assignment
           </VerticalMenu-item>
         </template>
       </VerticalMenu>

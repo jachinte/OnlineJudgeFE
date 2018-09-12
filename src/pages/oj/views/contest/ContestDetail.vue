@@ -65,13 +65,13 @@
           <Icon type="stats-bars"></Icon>
           {{$t('m.Rankings')}}
         </VerticalMenu-item>
-        -->
 
         <VerticalMenu-item v-if="showAdminHelper"
                            :route="{name: 'acm-helper', params: {contestID: contestID}}">
           <Icon type="ios-paw"></Icon>
           {{$t('m.Admin_Helper')}}
         </VerticalMenu-item>
+        -->
       </VerticalMenu>
     </div>
   </div>
